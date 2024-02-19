@@ -1,0 +1,37 @@
+.emailbody{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(227, 156, 156);
+    padding: 0px 10px;
+    height: 40px;
+    background-color: #c7c0c0;
+    border-radius: 5px;
+}
+.emailbody .emailbody_left{
+   display: flex;
+   align-items: center;
+   min-width: 300px;
+   flex: 20%;
+
+}
+.emailbody .emailbody_middle{
+    display: flex;
+    align-items: center;
+    flex: 50%;
+ }
+ .emailbody .emailbody_right{
+    display: flex;
+    align-items: center;
+    flex: 10%;
+ }
+ .emailbody:hover{
+    cursor: pointer;
+    background-color: rgb(221, 217, 217);
+    border-radius: 10px;
+ }
+.deleteIcon :hover{
+    color: rgb(251, 10, 10);
+}
+
+
+
